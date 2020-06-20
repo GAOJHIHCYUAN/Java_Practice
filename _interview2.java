@@ -20,7 +20,7 @@ public class _interview2 {
 		Random rand = new Random();
 		int[] x = new int[10];
 		int max,min;
-		float ave;
+		int ave;
 		max = Integer.MAX_VALUE +1;
 		min = Integer.MIN_VALUE -1;
 		for (int i=0 ; i<x.length ; i++) {
@@ -35,7 +35,7 @@ public class _interview2 {
 		Arrays.sort(x);
 		System.out.println("Array is : \n" + Arrays.toString(x));
 		System.out.println("Max is:" + max + "\n" + "Min is:" + min);
-		ave = (float) ((max + min) / 2);
+		ave = ((max + min) / 2);
 		System.out.println("Average is :" + ave);
 	}
 }
