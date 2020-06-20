@@ -4,17 +4,6 @@ import java.util.Random;
 
 //隨機創造一整數陣列，取出最大值、最小值，並計算平均。
 
-//public class _interview2 {
-//	public static void main(String[] args) {
-//		int [] arr = new int [10];
-//		for (int i=0 ; i < arr.length; i++) {
-//			int number = (int)(Math.random()*100);
-//			arr[i] = number;
-//
-//		}
-//		System.out.print(Arrays.toString(arr));
-//	}
-//}
 public class _interview2 {
 	public static void main(String[] args) {
 		Random rand = new Random();

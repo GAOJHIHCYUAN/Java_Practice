@@ -13,7 +13,6 @@ public class _interview1 {
 		
 		ArrayList<Integer> arrlist = new ArrayList<Integer>();
 		ArrayList<ArrayList<Integer>> result = new ArrayList<>();
-//		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 		int sum,number;
 		Scanner scanner = new Scanner(System.in);
 		number = scanner.nextInt();
